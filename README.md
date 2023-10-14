@@ -1,4 +1,4 @@
-# React + Vite ![Static Badge](https://img.shields.io/badge/License:-No_License-green:badgeContent)
+# Portfolio ![Static Badge](https://img.shields.io/badge/License:-No_License-green:badgeContent)
 
 # Table of Contents
 - [Description](#description)
@@ -16,7 +16,7 @@ This application is a portfolio for me to showcase my work and put myself out th
 
 ## Installation:
 
-To visit the deployed app, please click here:
+To visit the deployed app, please click here: https://main--gregarious-basbousa-fa6059.netlify.app/ 
 
 If you'd like to install the application, you'll need to ensure you have a Terminator emulator Software installed (such as Terminal for Mac, or Bash for Windows). Simply git clone it into your preferred folder! For more details on set-up, please see the Usage section below.
 
