@@ -53,7 +53,7 @@ export default function Form() {
 
     return (
         <div className="form">
-            <h1>Hello {firstName}</h1>
+            <h2>Hello {firstName}</h2>
             <form onSubmit={handleFormSubmit}>
                 <div class="form-box">
                     <input
@@ -73,7 +73,7 @@ export default function Form() {
                             onChange={handleInputChange}
                             type="text"
                             placeholder="First Name"
-                            class="form-control" id="exampleInputEmail1"
+                            class="form-control first-name" id="exampleInputEmail1"
                         />
                     </div>
                     <div class="form-group col-md-6">
@@ -83,7 +83,7 @@ export default function Form() {
                             onChange={handleInputChange}
                             type="text"
                             placeholder="Last Name"
-                            class="form-control" id="exampleInputEmail1"
+                            class="form-control last-name" id="exampleInputEmail1"
                         />
                     </div>
                 </div>

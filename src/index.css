@@ -49,7 +49,14 @@ a:hover {
 
 img,
 .port-body {
-  width: 300px
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  text-align: center;
+}
+
+img {
+  height: 200px
 }
 
 .port-body {
@@ -117,8 +124,7 @@ button:focus-visible {
 
 .form-row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .container .pt-4 {
@@ -168,6 +174,7 @@ li {
   margin: 30px 0px;
   background-color: #cdcdcd;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .bio-pic {
@@ -181,4 +188,32 @@ li {
 .port-full {
   background-color: #cdcdcd;
   border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.port-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.last-name,
+.first-name {
+  width: 450px
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+}
+
+.footer-github {
+  width: 30px;
+  height: 30px
+}
+
+.footer-email {
+  width: 50px;
+  height: 50px
 }
