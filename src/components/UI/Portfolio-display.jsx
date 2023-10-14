@@ -1,11 +1,14 @@
 import Card from '../Portfolio-card';
+import textEditor from "../../assets/img/Text-Editor.png"
+import social from "../../assets/img/Social.png"
+import ecom from "../../assets/img/ecom.png"
 
 const EMS = {
     name: 'Equestrian Management',
     description: 'A business management system, customised to fit the unique needs of the Equine industry.',
     link: 'https://github.com/p-h-davies',
     repo: 'https://github.com/p-h-davies',
-    img: 'src/assets/img/Text-Editor.png'
+    img: social
 };
 
 const TextEditor = {
@@ -13,7 +16,7 @@ const TextEditor = {
     description: 'A simple text editor, developed as a fully functional Progressive Web Application.',
     link: 'https://p-h-davies-text-editor-5135231fbfde.herokuapp.com/',
     repo: 'https://github.com/p-h-davies/text-editor-pwa',
-    img: 'src/assets/img/Text-Editor.png'
+    img: textEditor
 };
 
 const Social = {
@@ -21,7 +24,7 @@ const Social = {
     description: 'A simple database for businesses to keep tracker of their employees & their relevant data.',
     link: 'https://github.com/p-h-davies/social-network-api',
     repo: 'https://github.com/p-h-davies/social-network-api',
-    img: 'src/assets/img/Social.png'
+    img: social
 };
 
 const ECOM = {
@@ -29,7 +32,7 @@ const ECOM = {
     description: 'A back-end application designed to support an e-commerce website.',
     link: 'https://github.com/p-h-davies/E-Commerce-Back-End',
     repo: 'https://github.com/p-h-davies/E-Commerce-Back-End',
-    img: 'src/assets/img/ecom.png'
+    img: ecom
 };
 
 
